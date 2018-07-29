@@ -4,8 +4,7 @@
   border: 0;
 }
 
-.hero-image-section {
-  background-image: url("../images/background.jpg");
-  background-attachment: fixed;
-  background size: cover;
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
 }
