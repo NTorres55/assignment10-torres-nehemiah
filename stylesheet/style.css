@@ -30,13 +30,19 @@ input[type="submit"] {
   border-style: green;
 }
 
+div,
+input {
+  padding: 7px;
+}
+
 .dropdown {
   border-style: red;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 340px;
   padding: 10px;
   background-color: white;
-}
+  opacity: .85;
+  }
