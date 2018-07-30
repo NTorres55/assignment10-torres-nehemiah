@@ -35,6 +35,10 @@ input {
   padding: 7px;
 }
 
+.radiobutton h3 {
+  padding: 3px 0 7px 0;
+}
+
 .dropdown {
   border-style: red;
 }
