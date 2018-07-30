@@ -2,9 +2,41 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: bahnschrift;
 }
 
 body {
   background-image: url(../images/background.jpg);
   background-size: cover;
+  background-position: fixed;
+}
+
+label.label_input_wrap {
+  display: block;
+}
+
+input,
+textarea {
+  border: 2px solid green;
+  padding: 9px 11px;
+}
+
+input[type="submit"] {
+  padding: 6px 52px;
+  background: red;
+  color: white;
+  font-family: bahnschrift;
+  font-weight: bold;
+  border-style: green;
+}
+
+.dropdown {
+  border-style: red;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
 }

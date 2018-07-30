@@ -19,7 +19,52 @@
 
     <body>
       <main>
+        <!--form starts here-->
+          <form name="firstform" method="" action="">
+            <div class="container">
+              <h2>Contact Form</h2>
+              <div class="name">
+                <label for="name" class="label_input_wrap">Name </label>
+                <input type="text" name="name" id="name" />
+              </div>
 
+              <div class="email">
+                <label for="email" class="label_input_wrap">Email </label>
+                <input type="email" name="email" id="email" />
+              </div>
+
+              <div class="telephone">
+                <label for="telephone" class="label_input_wrap">Telephone: </label>
+                <input type="tel" name="telephone" id="telephone" />
+              </div>
+
+              <div class="comments">
+                <label for="comments" class="label_input_wrap">Comments: </label>
+                <textarea name="comments" maxlength="500" cols="40" rows="15"></textarea>
+              </div>
+
+              <div class="radiobutton">
+                <h3>Favorite Sports</h3>
+                <input type="radio" name="sports" value="jai alai" id="jai alai"/><label class="label_input_wrap" for="jai alai">Jai ALai</label>
+                <input type="radio" name="sports" value="pelota mano" id="pelota mano"/><label class="label_input_wrap" for="pelota mano">Pelota Mano</label>
+                <input type="radio" name="sports" value="herri kirolak" id="herri kirolak"/><label class="label_input_wrap" for="herri kirolak">Herri Kirolak</label>
+              </div>
+
+              <div class="dropdown">
+                <label for="color" class="label_input_wrap">What color blouse would you like?</label>
+                <select name="color" id="color">
+                  <option value="blue">Blue</option>
+                  <option value="red">Red</option>
+                  <option value="white">White</option>
+                </select>
+              </div>
+
+              <div class="submit">
+                <input type="submit" value="Send">
+              </div>
+            </div>
+
+          </form>
 
       </main>
 
